@@ -32,13 +32,13 @@ const restaurant = {
 
   orderDelivery({ starterIndex = 1, mainIndex = 0, time = '20:00', address }) {
     console.log(
-      `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}`
+      `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}`,
     );
   },
 
   orderPasta(ing1, ing2, ing3) {
     console.log(
-      `Here is your declicious pasta with ${ing1}, ${ing2} and ${ing3}`
+      `Here is your declicious pasta with ${ing1}, ${ing2} and ${ing3}`,
     );
   },
 
